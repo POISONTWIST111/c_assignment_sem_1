@@ -1,5 +1,3 @@
 # computer assignment
-## submitted by
-```python
-print('hello world')
-```
+## submitted by Armaan
+
