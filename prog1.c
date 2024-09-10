@@ -13,5 +13,5 @@ int main()
     printf("Enter is no. of years: ");
     scanf("%d",&t);
     printf("The interest that you will get is %d",r*p*t/100);// Formula of SI
-    printf("\n\n\n");
+    return 0;
 }

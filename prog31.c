@@ -1,4 +1,4 @@
-//PROGRAM TO PRINT SUM OF INDIVIDUAL DIGITS OF A ‘N’ DIGIT NO.
+//PROGRAM TO PRINT SUM OF INDIVIDUAL DIGITS OF A ï¿½Nï¿½ DIGIT NO.
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -10,7 +10,7 @@ int main()
     a = 0;
     i = 0;
     printf("This program will give you the sum of individual digits of the inputed number.\n");
-    printf("The number should be less than 10,\nEnter the number:");
+    printf("The number should be less than 10 digits,\nEnter the number:");
     scanf("%ld",&n);
     do {
         power_10 = 1;

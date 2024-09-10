@@ -1,3 +1,3 @@
-# computer assignment
+# Computer Assignment
 ## submitted by Armaan
 

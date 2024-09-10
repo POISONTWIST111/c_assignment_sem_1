@@ -12,7 +12,7 @@ int main()
     printf("Enter your number: ");
     scanf("%d",&n);
     temp_n = n;
-    for(i=1;i<10;i++) {
+    for(i=1;i<11;i++) {
         power_10 = 1;
         for(int f=0;f<i;f++) {
              power_10 = power_10*10;
