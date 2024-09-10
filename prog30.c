@@ -3,8 +3,8 @@
 #include <stdlib.h>
 
 int main() {
-    int num, temp_Num, digi;
-    int rev =0;
+    int num,temp_Num,digi;
+    int rev = 0;
     printf("Enter a number to be reverse: ");
     scanf("%d", &num);
     temp_Num = num; 

@@ -3,8 +3,8 @@
 #include <stdlib.h>
 
 int main() {
-    int num, temp_num, digi;
-    int rev =0;
+    int num,temp_num,digi;
+    int rev = 0;
     printf("Enter a number: ");
     scanf("%d", &num);
     temp_num = num; 
