@@ -18,4 +18,5 @@ int main()
     printf("Sum of all odd terms between 1 and %d is: %d\n",n,o);
     printf("Sum of all even terms between 1 and %d is: %d",n,e);
     return 0;
+    
 }

@@ -18,5 +18,6 @@ int main() {
     } else {
         printf("Entered number is not a palindrom.");
     }
+    
     return 0;
 }

@@ -23,6 +23,5 @@ int main() {
         sum += (double)i / factorial(i);
     }
     printf("The sum of the series is: %lf\n", sum);
-
     return 0;
 }

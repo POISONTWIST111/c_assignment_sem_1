@@ -1,4 +1,4 @@
-//PROGRAM TO PRINT SUM OF INDIVIDUAL DIGITS OF A ‘N’ DIGIT NO.
+//PROGRAM TO PRINT SUM OF INDIVIDUAL DIGITS OF A ï¿½Nï¿½ DIGIT NO.
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -17,7 +17,7 @@ int main()
         for(j=0;i>=j;j++) {
             power_10 = power_10 * 10;
         }
-        lol = n / power_10;
+        lol = n / power_10; 
         a = n % power_10;
         n = n - a;
         a = a * 10;

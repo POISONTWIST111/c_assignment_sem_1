@@ -30,7 +30,5 @@ int main()
     ans = 1 + n*x;
     }
     printf("The value of y is %lf",ans);
-
-
     return 0;
 }

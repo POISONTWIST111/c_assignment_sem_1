@@ -14,5 +14,5 @@ int main() {
         num = num / 10; 
     }
     printf(" Your reversed Number is: %d\n", rev);
-    return 0;
+    return 0;   
 }

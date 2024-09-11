@@ -28,4 +28,5 @@ int main()
     }
     printf("The commission you will have to pay is %f",com);
         return 0;
+        
 }

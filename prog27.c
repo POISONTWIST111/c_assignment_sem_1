@@ -23,6 +23,5 @@ int main()
         } else {
         printf("Entered number is prime");
         }
-
     return 0;
 }

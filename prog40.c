@@ -15,6 +15,6 @@ int main()
         }
         ans = ans + n;
         printf("%d\n",ans);
-    }
+    }   
     return 0;
 }

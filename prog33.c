@@ -18,7 +18,7 @@ int main()
    } else {
    max = n;
    }
-   if (min>=n) {
+   if (min>=n) {    
    min = n;
    } else {
    min = min;

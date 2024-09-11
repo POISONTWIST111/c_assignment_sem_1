@@ -16,7 +16,7 @@ int main()
         power_10 = 1;
         for(j=0;i>=j;j++) {
             power_10 = power_10 * 10;
-        }
+        }   
         lol = n / power_10;
         a = n % power_10;
         n = n - a;

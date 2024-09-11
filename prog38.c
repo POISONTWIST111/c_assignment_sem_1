@@ -1,4 +1,4 @@
-//PROGRAM TO PRINT 1,4,9,16,25,………N.
+//PROGRAM TO PRINT 1,4,9,16,25,ï¿½ï¿½ï¿½N.
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -17,6 +17,5 @@ int main()
         printf(", %d",a);
     }
     printf(".");
-
     return 0;
 }

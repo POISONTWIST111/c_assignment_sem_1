@@ -1,4 +1,4 @@
-//PROGRAM TO PRINT FIBONACCI SERIES.(0,1,1,2,3…)
+//PROGRAM TO PRINT FIBONACCI SERIES.(0,1,1,2,3ï¿½)
 #include<stdio.h>
 #include<stdlib.h>
 
@@ -19,6 +19,6 @@ int main()
     fabnum2 = fabnum1 + fabnum2;
     printf(", %ld",fabnum2);
     }
-    printf(".");
-    return 0;
+    printf(".");    
+    return 0;   
 }

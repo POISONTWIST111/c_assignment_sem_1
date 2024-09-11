@@ -32,4 +32,5 @@ int main()
     ans = ans + rate;
     printf("You need to pay Rs.%.1f",ans);
     return 0;
+    
 }

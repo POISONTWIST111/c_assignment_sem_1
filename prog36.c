@@ -1,4 +1,4 @@
-//PROGRAM TO PRINT 1,3,5,7,9………N.
+//PROGRAM TO PRINT 1,3,5,7,9ï¿½ï¿½ï¿½N.
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -16,8 +16,6 @@ int main()
         i++;
         i++;
         a = a + 2;
-
     }
-
     return 0;
 }

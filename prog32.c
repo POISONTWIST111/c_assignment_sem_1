@@ -22,7 +22,7 @@ int main()
          }
    } else {
          max2 = max1;
-         max1 = n;
+         max1 = n;      
    }
    printf("first maximum = %d\n",max1);
    printf("second maximum = %d\n",max2);
