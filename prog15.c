@@ -21,5 +21,6 @@ int main()
     divi = total_marks;
     divi = divi/5;
     printf("Your average score is: %.1f",divi);
+    
     return 0;
 }

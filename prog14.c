@@ -16,5 +16,6 @@ int main()
     } else {
         printf("Entered Character is a special symbol.\n");
     }
+    
     return 0;
 }

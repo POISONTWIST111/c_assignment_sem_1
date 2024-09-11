@@ -1,3 +1,4 @@
+// CALCULATE PERCENTAGE
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -25,4 +26,5 @@ int main()
     percent = percent/total_marks;
     printf("Your percentage is %f",percent);
     return 0;
+    
 }

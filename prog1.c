@@ -14,4 +14,5 @@ int main()
     scanf("%d",&t);
     printf("The interest that you will get is %d",r*p*t/100);// Formula of SI
     return 0;
+    
 }

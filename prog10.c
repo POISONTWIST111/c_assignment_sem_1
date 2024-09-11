@@ -28,6 +28,5 @@ int main()
     } else {
         printf("DONT JOOK AROUND!! GIVE THE ACTUAL MARKS!!");
     }
-
     return 0;
 }

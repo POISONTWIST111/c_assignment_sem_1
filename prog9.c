@@ -18,4 +18,5 @@ int main()
     ans = h + m + s;
     printf("Total number of seconds: %ld",ans);
     return 0;
+    
 }

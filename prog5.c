@@ -1,3 +1,4 @@
+//SWAPPING TWO NUMBERS USING THIRD VARIALBLE
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -10,13 +11,11 @@ int main()
     c = 0;
     printf("a = %d\n",a);
     printf("b = %d\n",b);
-
     c = a;
     a = b;
     b = c;
     printf("Now the swapped values are:-\n");
     printf("a = %d\n",a);
     printf("b = %d\n",b);
-
     return 0;
 }

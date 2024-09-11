@@ -1,6 +1,7 @@
-#include<stdio.h>
+//AREA OF TRIANGLE
+#include <stdio.h>
 #include <stdlib.h>
-#include<math.h>
+#include <math.h>
 
 int main()
 {

@@ -17,6 +17,5 @@ int main()
     g_income = package - tax;
     g_income = g_income*12;
     printf("After deducting the P.F and income tax your gross annual salary is %lf",g_income);
-
     return 0;
 }

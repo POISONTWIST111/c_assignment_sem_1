@@ -14,5 +14,6 @@ int main()
     hour = hour & 60;
     printf("Hence result is: \n");
     printf("Day:  %ld    Hour: %ld    Min: %ld    sec: %ld",day,hour,min,sec);
+    
     return 0;
 }
