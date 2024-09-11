@@ -13,6 +13,9 @@ int main() {
     n++;
     for(int i=1;i<n;i++) {
         dumb = 1;
+        for (int k=n;k>i;k--) {
+            printf(" ");
+        }
         for(int j=0;j<i;j++) {
             printf("%d",dumb);
             dumb++;
