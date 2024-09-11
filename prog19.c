@@ -91,6 +91,5 @@ int main()
     default:
     printf("Entered character is not a lowercase Character.");
     }
-
     return 0;
 }

@@ -14,7 +14,6 @@ int main()
         ans = ans*int1;
         }
         printf("%ld  ^  %ld  =  %ld",int1,int2,ans);
-
     return 0;
 
 }

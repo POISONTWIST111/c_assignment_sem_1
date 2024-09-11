@@ -15,5 +15,6 @@ int main()
     printf("Enter the third number: ");
     scanf("%ld",&a);
     max = ( max >= a)? max : a;
+    
     return 0;
 }

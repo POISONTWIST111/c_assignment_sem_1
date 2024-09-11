@@ -35,7 +35,6 @@ int main()
         default:
         printf("Error 404!!");
     }
-
     return 0;
 }
 
