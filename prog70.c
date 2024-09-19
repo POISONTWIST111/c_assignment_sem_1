@@ -8,10 +8,12 @@ int main(){
     printf("PROGRAM TO READ AN ARRAY AND PRINT THE OCCURRENCE OF ANY PARTICULAR ELEMENT IN THE ARRAY.\nFor the Array of 20\n");
     for(int i=0;i<20;i++) {
         printf("Enter a character:\n");
-        scanf("%c",&array[i]);
+        //scanf("%c",&array[i]);
+        array[i] = getchar();
+        getchar();
     }
     for(int i=0;i<20;i++) {
-        printf("%c  ",array[i]);
+        printf("%c,",array[i]);
     }
     
     printf("Enter The character you want to check the repeation:\n");
