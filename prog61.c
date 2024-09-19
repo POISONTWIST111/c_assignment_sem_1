@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main(){
+int main(){ 
     int array[10];
     int swap;
     int n = 9;
