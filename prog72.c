@@ -24,7 +24,7 @@ int main(){
     printf(" ]");
     printf("\n");
     for(int i=0;i<10;i++) {
-        array2[i] = array[(i + n > 10)? i + n - 10 : i + n];
+        array2[i] = array[(i + n >= 10)? i + n - 10 : i + n];
     }
     printf("The shifted array:\n");
     printf("[ ");
