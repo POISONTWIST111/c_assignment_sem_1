@@ -35,7 +35,8 @@ int main() {
             return 0;
         }
     }
-    printf("DONE");
+
+    for(int i=0;i<10)
     
 
     return 0;
