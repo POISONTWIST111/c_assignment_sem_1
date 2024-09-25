@@ -12,7 +12,7 @@ int main(){
     }  
         for(int i=0;i<5;i++) {
         lol = numbers1[i]; 
-        numbers1[i] = numbers1[9-1];
+        numbers1[i] = numbers1[9-i];
         numbers1[9-i] = lol;
     }
      printf("The reversed array: ");
