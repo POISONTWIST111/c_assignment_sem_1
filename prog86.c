@@ -1,5 +1,4 @@
 //WRITE A FUNCTION TO RADE LINE OF TEXT AND FIND OUT LENGTH OF STRING.
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -14,7 +13,6 @@ int main()
             count++;
     }  
       
-    printf("Total number of characters in a string: %d", count);  
-   
+    printf("Total number of characters in a string: %d", count);
     return 0;  
 }
