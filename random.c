@@ -1,25 +1,32 @@
-//PROGRAM TO PRINT 1/1!+2/2!+3/3!+4/4!���N.
-#include <stdio.h>
-#include <stdlib.h>
-int fact(int num){
-    int fact=1;
-    for (int i=1;i<=num;i++){
-        fact*=i;
-    };
-    return fact;
-};
+// PROGRAM TO FINDOUT FRIST MAX AND SECOND MAX FROM AN ARRAY.
+#include<stdio.h>
+#include<stdlib.h>
+
 int main()
 {
-    int i,n,fac,j;
-    float ans,fac2 = 0;
-    ans = 0;
-    printf("This program will print 1/1!+2/2!+3/3!+4/4!...N.\nEnter the number: ");
-    scanf("%d",&n);
-    for(i=1.0;i<=n;i++) {
-        fac=fact(i);
-        fac2 += i/fac;
-        printf("%.1f \n ",fac2);
+    int n,max1,max2,i;
+    int array[20];
+    max1 = -32000;
+    max2 = -32000;
+    i = 0;
+    printf("Enter a series of numbers and we will tell the first maximum and second minimum values.\n");
+    while  (i < 20)  {
+    printf("Enter the numbers : \n");
+    scanf("%d",&array[i]);
+    if (max1>=array[i]) {
+         max1 = max1;
+        if (max2>=array[i]) {
+             max2 = max2;
+         } else {
+         max2 = array[i];
+         }
+    } else {
+         max2 = max1;
+         max1 = array[i];      
     }
-    printf("%.1f",fac2);
-    return 0;
+    i++;
+    }
+    printf("first maximum = %d\n",max1);
+    printf("second maximum = %d\n",max2);
+   return 0;
 }
