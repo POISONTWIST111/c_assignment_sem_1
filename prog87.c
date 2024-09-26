@@ -25,7 +25,7 @@ int main() {
         }
         }
     }
-    printf("\n\n");
+    printf("\n");
     for (int i=0;i<10;i++) {
         total_marks[i] = 0;
         for (int j=0;j<5;j++){
