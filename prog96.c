@@ -1,3 +1,5 @@
+//WRITE A C PROGRAM TO SORT THE GIVEN N NUMBER OF STRINGS IN ASCENDING ORDER USING
+//POINTERS.
 #include<stdio.h>
 #include <string.h>
 #include <stdlib.h>
