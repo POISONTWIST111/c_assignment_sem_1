@@ -3,10 +3,12 @@
 #include<string.h>
 
 void bigger_and_greater(char s[]);
-    int main() {
+
+int main() {
                 
     printf("Enter the string: ");
-    char cpu_destroyer[30];
+    char *cpu_destroyer;
+    cpu_destroyer = malloc(30*sizeof(char));
     gets(cpu_destroyer);
     char swap;
     for(int i=0;i<strlen(cpu_destroyer)-1;i++) {
@@ -18,17 +20,29 @@ void bigger_and_greater(char s[]);
             }
         }
     }
+    char revered_destroyer[30];
+    strcpy(revered_destroyer,cpu_destroyer);
     puts(cpu_destroyer);
-    printf("\n");
 
+    for(int i=0;i<strlen(revered_destroyer)-1;i++) {
+        for(int j=0;j<strlen(revered_destroyer)-1;j++) {
+            if(revered_destroyer[j]<revered_destroyer[j+1]) {
+                swap = revered_destroyer[j];
+                revered_destroyer[j] = revered_destroyer[j+1];
+                revered_destroyer[j+1] = swap; 
+            }
+        }
+    }
+    while(strcmp(cpu_destroyer,revered_destroyer))
+    bigger_and_greater(cpu_destroyer);
+    
     return 0;
 }
 
 void bigger_and_greater(char s[]) {
     int n = 1;
     while (n--) {
-    char s[100];
-    gets(s);
+
     int n = strlen(s);
     int index = -1;
     for (int i = 0; i < n; i++)
@@ -41,7 +55,6 @@ void bigger_and_greater(char s[]) {
     }
     
     if(index==-1) {
-        printf("\n");
         continue;
     }
 
@@ -73,6 +86,5 @@ void bigger_and_greater(char s[]) {
     }
 
     puts(s);
-        printf("\n");
 }
 }
